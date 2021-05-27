@@ -14,8 +14,8 @@
   },
   "include": [
     "index.ts",
-	"OnMessage.ts",
-	"data.json"
+	  "OnMessage.ts",
+	  "data.json"
   ],
   "types": [
     "node"
