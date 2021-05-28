@@ -52,7 +52,9 @@ export async function OnMessage(message:Discord.Message) : Promise<void> {
             else {
                 var correct = false;
                 while (!correct) {
-                    await message.channel.send('Invalid Input, please try again');
+                    await message.channel.send(`**You can only enter the following answers!**
+- RotA
+- AL`);
                     msg = await message.channel.awaitMessages(filter, {
                         max: 1,
                         time: waitTime,
