@@ -90,6 +90,9 @@ export async function OnMessage(message:Discord.Message) : Promise<void> {
             
             await (channel as Discord.TextChannel).send(`**Bug Title:** 
 ${title}
+
+**Game:**
+Subnautica
             
 **Mod:**
 ${mod}
