@@ -5,8 +5,6 @@ import path from 'path';
 import { OnMessage } from './OnMessage';
 const Client = new Discord.Client();
 
-console.log(process.env.ACCESS_TOKEN);
-
 export const data = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf-8"));
 
 export var channel:Discord.GuildChannel;
